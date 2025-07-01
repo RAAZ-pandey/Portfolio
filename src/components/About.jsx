@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Award, Coffee, Users, Zap } from 'lucide-react';
+import profileImg from "../assets/dp.png";
 
 const About = () => {
   const stats = [
@@ -46,7 +47,7 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/Dp1.jpg"
+                src={profileImg}
                 alt="Profile"
                 className="w-full h-96 object-cover"
               />
