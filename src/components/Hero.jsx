@@ -63,7 +63,7 @@ const Hero = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-white/20 text-white hover:bg-white/10 transform hover:scale-105 transition-all duration-300"
+            className="border-white/20 text-gray-800 hover:bg-white/10 transform hover:scale-105 transition-all duration-300"
           >
             <a 
                 href="https://drive.google.com/file/d/1P4mS9lWmm2vjHl91oMSGDRIGoAAOkax7/view?usp=sharing" 
