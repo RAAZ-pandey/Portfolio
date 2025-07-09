@@ -36,9 +36,9 @@ const Projects = () => {
       title: 'Weather Forecast App',
       description: 'Beautiful weather application with location-based forecasts and interactive maps.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop',
-      technologies: ['React Native', 'OpenWeather API', 'Maps'],
-      github: '#',
-      demo: '#',
+      technologies: ['React Vite', 'OpenWeather API', 'Maps'],
+      github: 'https://github.com/RAAZ-pandey/WeatherCast',
+      demo: 'https://weather-cast-delta.vercel.app/',
       featured: false
     }
   ];
@@ -69,13 +69,26 @@ const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute bottom-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <Button size="sm" variant="secondary" className="bg-white/90 hover:bg-white">
-                    <Github size={16} />
-                  </Button>
-                  <Button size="sm" variant="secondary" className="bg-white/90 hover:bg-white">
-                    <ExternalLink size={16} />
-                  </Button>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button size="sm" variant="secondary" className="bg-white/90 hover:bg-white">
+                      <Github size={16} />
+                    </Button>
+                  </a>
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button size="sm" variant="secondary" className="bg-white/90 hover:bg-white">
+                      <ExternalLink size={16} />
+                    </Button>
+                  </a>
                 </div>
+
               </div>
               
               <div className="p-6">
@@ -126,16 +139,29 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="flex space-x-2">
-                  <Button size="sm" variant="outline" className="text-xs">
-                    <Github size={14} className="mr-1" />
-                    Code
-                  </Button>
-                  <Button size="sm" variant="outline" className="text-xs">
-                    <ExternalLink size={14} className="mr-1" />
-                    Demo
-                  </Button>
+               <div className="flex space-x-2">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button size="sm" variant="outline" className="text-xs">
+                      <Github size={14} className="mr-1" />
+                      Code
+                    </Button>
+                  </a>
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button size="sm" variant="outline" className="text-xs">
+                      <ExternalLink size={14} className="mr-1" />
+                      Demo
+                    </Button>
+                  </a>
                 </div>
+
               </div>
             </div>
           ))}
