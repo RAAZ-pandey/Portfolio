@@ -29,7 +29,7 @@ const Projects = () => {
       description: 'Analytics dashboard for social media managers with data visualization and automated reporting.',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
       technologies: ['React', 'Python', 'Django', 'Chart.js'],
-      github: 'https://github.com/RAAZ-pandey/PCM-Notes',
+      github: '',
       demo: '',
       featured: false
     },
