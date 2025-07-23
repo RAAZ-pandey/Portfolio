@@ -2,6 +2,7 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import notesImage from '../assets/notes.jpeg';
 
 const Projects = () => {
   const projects = [
@@ -15,10 +16,10 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative project management tool with real-time updates, team chat, and advanced analytics.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
-      technologies: ['Vue.js', 'Express', 'PostgreSQL', 'Socket.io'],
+      title: 'LaTex suppoted Notes',
+      description: 'Notes management tool with real-time Rendering, LaTex Equation, and advanced Math and Chemistry symbols.',
+      image: notesImage,
+      technologies: ['React.js', 'Node.js', 'MongoDB Atlas', 'LaTex', 'Tailwind'],
       github: '#',
       demo: '#',
       featured: true
@@ -28,8 +29,8 @@ const Projects = () => {
       description: 'Analytics dashboard for social media managers with data visualization and automated reporting.',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
       technologies: ['React', 'Python', 'Django', 'Chart.js'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/RAAZ-pandey/PCM-Notes',
+      demo: 'https://pcm-notes.vercel.app/',
       featured: false
     },
     {
