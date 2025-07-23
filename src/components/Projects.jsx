@@ -20,8 +20,8 @@ const Projects = () => {
       description: 'Notes management tool with real-time Rendering, LaTex Equation, and advanced Math and Chemistry symbols.',
       image: notesImage,
       technologies: ['React.js', 'Node.js', 'MongoDB Atlas', 'LaTex', 'Tailwind'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/RAAZ-pandey/PCM-Notes',
+      demo: 'https://pcm-notes.vercel.app/',
       featured: true
     },
     {
@@ -30,7 +30,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
       technologies: ['React', 'Python', 'Django', 'Chart.js'],
       github: 'https://github.com/RAAZ-pandey/PCM-Notes',
-      demo: 'https://pcm-notes.vercel.app/',
+      demo: '',
       featured: false
     },
     {
