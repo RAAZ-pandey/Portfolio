@@ -3,6 +3,7 @@ import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import notesImage from '../assets/notes.jpeg';
+import sasimg from '../assets/Saas.png'
 
 const Projects = () => {
   const projects = [
@@ -25,12 +26,12 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for social media managers with data visualization and automated reporting.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-      technologies: ['React', 'Python', 'Django', 'Chart.js'],
-      github: '',
-      demo: '',
+      title: 'An AI SAAS web app',
+      description: 'Transform your content creation with our suite of premium AI tools. Write Article , generate Images and enhance your workflow.',
+      image: sasimg,
+      technologies: ['React', 'Clerk', ' Cloudinary', 'Neon', ' OpenAI API'],
+      github: 'https://github.com/Ankurpandeyyy/AI_SAAS_Application',
+      demo: 'https://your-ai-snowy.vercel.app/',
       featured: false
     },
     {
